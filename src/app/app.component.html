@@ -1,0 +1,103 @@
+<nav id="cssmenu">
+  <div class="navbar">
+    <div class="logo">
+      <a routerLink="/">
+        <img src="assets/images/Shoelogo.png" style="width:300px;padding-left:20px;padding-bottom:15px;padding-top:15px;">
+      </a>
+    </div>
+    <span class="space"></span>
+    <div>
+      <ul class="navbuttons">
+        <li>
+          <a routerLink="/products">
+            <span>Products</span>
+          </a>
+        </li>
+        <li>
+          <a routerLink="/aboutus">
+            <span>About Us</span>
+          </a>
+        </li>
+        <li>
+          <a routerLink="/eventstraining">
+            <span>Events & Training</span>
+          </a>
+        </li>
+        <li>
+          <a routerLink="/locations">
+            <span>Locations</span>
+          </a>
+        </li>
+        <li>
+          <a routerLink="/servicetools">
+            <span>Service Tools</span>
+          </a>
+        </li>
+        <li>
+          <a routerLink="/contact">
+            <span>Contact</span>
+          </a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+<div class="row searchcontainer">
+  <button style="height:55px" mat-raised-button color="primary" [matMenuTriggerFor]="menu">ALL
+    <i class="material-icons">keyboard_arrow_down </i>
+    <mat-menu #menu="matMenu" [overlapTrigger]="false">
+      <button mat-menu-item>
+        <span>Heating & Cooling Equipment</span>
+      </button>
+      <button mat-menu-item>
+        <span>Heating & Cooling Supplies</span>
+      </button>
+      <button mat-menu-item>
+        <span>Indoor Air Quality</span>
+      </button>
+      <button mat-menu-item>
+        <span>Ventilation</span>
+      </button>
+      <button mat-menu-item>
+        <span>Refrigeration</span>
+      </button>
+      <button mat-menu-item>
+        <span>Plumbing</span>
+      </button>
+      <button mat-menu-item>
+        <span>Hydronics</span>
+      </button>
+      <button mat-menu-item>
+        <span>Hearth</span>
+      </button>
+      <button mat-menu-item>
+        <span>Tools & Instruments</span>
+      </button>
+    </mat-menu>
+  </button>
+  <form class="example-form searchbar">
+    <mat-form-field class="example-full-width search-box">
+      <input matInput placeholder="Search Products" value="">
+    </mat-form-field>
+  </form>
+</div>
+
+<div><router-outlet></router-outlet></div>
+<footer>
+  <div class="logo">
+    <a routerLink="/">
+      <img src="assets/images/Shoelogo.png" style="width:200px;padding-left:20px">
+    </a>
+  </div>
+  <div style="padding-left:100px">
+    <p>(800) 422-2676
+      <br>info@shoemakerhvac.com</p>
+  </div>
+  <span class="space"></span>
+  <div>
+    ©2017 Shoemaker, Inc. All rights reserved.
+  </div>
+  <div>
+    <a href="http://www.facebook.com" target="_blank"><img src="assets/images/fblogo.png" style="width:20px;padding-left:20px;padding-right:20px"></a>
+  </div>
+</footer>

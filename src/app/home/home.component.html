@@ -1,0 +1,539 @@
+
+<app-slider></app-slider>
+<div class="container" >
+  <a routerLink="" class="padding">
+    <div class="circlebuttons">
+      <span>Specials <br><i class="material-icons icon">stars</i></span>
+    </div>
+  </a>
+  <a routerLink="" class="padding">
+      <div class="circlebuttons">
+        <span>Store <br><i class="material-icons icon">add_shopping_cart</i></span>
+      </div>
+    </a>
+    <a routerLink="" class="padding">
+        <div class="circlebuttons">
+          <span>Tools <br><i class="material-icons icon">build</i></span>
+        </div>
+      </a>
+</div>
+<br>
+<div class="offercontact main-content">
+  <div class="offertext">
+    <h1>What We Offer
+    </h1>
+    <h3>We're working every day to get you the products you need, when you need them.</h3>
+    <p class="offertext">With over 150 vendors and thousands of products in stock, we’re ready to supply the HVAC product you need to get the
+      job done. If you can’t find what you need at a local warehouse, ask a member of our sales team about special ordering
+      the product you need. We’re sure to find the right product you need to finish the job.</p>
+      <br>
+    <a routerLink="/aboutus">
+      <button mat-raised-button color="primary" class="lato">Read More</button>
+    </a>
+  </div>
+  <div>
+    <h1>Contact Us</h1>
+    <form class="form">
+
+            <mat-form-field class="example-full-width lato">
+              <input matInput placeholder="First Name">
+            </mat-form-field>
+            <mat-form-field class="example-full-width lato">
+              <input matInput placeholder="Last Name">
+            </mat-form-field>
+  
+            <mat-form-field class="example-full-width lato">
+              <input matInput placeholder="Company">
+            </mat-form-field>
+            <mat-form-field class="example-full-width lato">
+              <input matInput placeholder="Email Address">
+            </mat-form-field>
+  
+
+      <mat-form-field class="example-full-width lato">
+        <input matInput placeholder="Subject" value="">
+      </mat-form-field>
+
+
+      <p>
+        <mat-form-field class="example-full-width lato">
+          <textarea matInput placeholder="Message"></textarea>
+        </mat-form-field>
+      </p>
+    </form>
+    <a routerLink="/contact">
+      <button mat-raised-button color="primary" class="lato">Send Message</button>
+    </a>
+  </div>
+</div>
+<div class="main-content">
+  <h1>Essential Products</h1>
+  <h3>With thousands of products available, we're sure to find you the right product to finish the job.</h3>
+  <div>
+      <mat-tab-group class="demo-tab-group">
+          <mat-tab>
+              <ng-template mat-tab-label>
+                  <h2 class="lato">Special Clearance!</h2>
+                  </ng-template>
+            <div class="demo-tab-content">
+              <table>
+              <tr>
+                <td><img src="assets/images/K2.png" style="height:200px"></td>
+              <td><p>The Burnham K2 Boiler does an outstanding job of establishing a balance between high efficiency and high value. 
+                The impressive list of high-value standard features that come with the K2 boiler adds to the overall savings that it can provide.</p></td>
+              </tr>
+            </table>
+            <ul>
+              <li>Up to 95% AFUE</li>
+              <li>80-180 MBH</li>
+              <li>5:1 Turndown</li>
+            </ul>
+            <a routerLink="">
+              <button mat-raised-button color="primary" class="lato">Find Out More!</button>
+            </a>
+          </div>
+          </mat-tab>
+          <mat-tab>
+              <ng-template mat-tab-label>
+                  <h2 class="lato">New Product</h2>
+                  </ng-template>
+            <div class="demo-tab-content">
+                <table>
+                    <tr>
+                      <td><img src="assets/images/roughinbox.PNG" style="height:150px"></td>
+                    <td><p>The innovative new way to rough in any minisplit! Saves time. Saves money. Saves hassle.</p></td>
+                    </tr>
+                  </table>
+                  <a routerLink="">
+                      <button mat-raised-button color="primary" class="lato">Find Out More!</button>
+                    </a>
+            </div>  
+          </mat-tab>
+          <mat-tab>
+              <ng-template mat-tab-label>
+                  <h2 class="lato">Product Highlight</h2>
+                  </ng-template>
+              <div class="demo-tab-content">
+                  <table>
+                      <tr>
+                        <td><img src="assets/images/F100.jpg" style="height:200px"></td>
+                      <td><p>The F100 Whole-House Media Air Cleaner is up to 85% more efficient at capturing both microscopic particles like dust and smoke in addition to larger contaminants such as mold spores and pet dander. 
+                        This highly effective air cleaner also requires minimal maintenance. 
+                        Basically, once you install the filter you only need to replace it every 6-12 months. 
+                        That’s four times longer than a standard one-inch furnace filter.</p></td>
+                      </tr>
+                    </table>
+                    <p><strong>Features:</strong></p>
+                    <ul>
+                      <li>Captures particles as small as .3 microns</li>
+                      <li>MERV 11</li>
+                      <li>Quick and easy replacement</li>
+                    </ul>
+                    <a routerLink="">
+                      <button mat-raised-button color="primary" class="lato">Find Out More!</button>
+                    </a>
+                </div>  
+          </mat-tab>
+        </mat-tab-group>
+  </div>
+</div>
+<div class="main-content">
+  <h1>7 Convenient Locations</h1>
+  <h3>We're proud to serve Michigan and Northern Indiana HVAC contractors from seven helpful locations.</h3>
+  <div>
+    <mat-expansion-panel>
+      <mat-expansion-panel-header>
+        <mat-panel-title class="lato">
+          <strong>Gaylord Branch</strong>
+        </mat-panel-title>
+        <mat-panel-description class="lato">
+          1759 Dickerson Road - Gaylord, MI 49735
+        </mat-panel-description>
+      </mat-expansion-panel-header>
+
+      <table>
+        <tr>
+          <td style="padding-right:20px">
+            <strong>Phone:</strong> (989) 732-5128</td>
+          <td>
+            <strong>Fax:</strong> (989) 732-5129</td>
+        </tr>
+      </table>
+      <br>
+      <table>
+        <tr>
+          <th colspan="2">Opening Times</th>
+        </tr>
+        <tr>
+          <td style="padding-right:5px">Monday</td>
+          <td>7:00am - 5:00pm</td>
+        </tr>
+        <tr>
+          <td>Tuesday</td>
+          <td>7:00am - 5:00pm</td>
+        </tr>
+        <tr>
+          <td style="padding-right:50px">Wednesday</td>
+          <td>7:00am - 5:00pm</td>
+        </tr>
+        <tr>
+          <td>Thursday</td>
+          <td>7:00am - 5:00pm</td>
+        </tr>
+        <tr>
+          <td>Friday</td>
+          <td>7:00am - 5:00pm</td>
+        </tr>
+        <tr>
+          <td>Saturday</td>
+          <td>CLOSED</td>
+        </tr>
+        <tr>
+          <td>Sunday</td>
+          <td>CLOSED</td>
+        </tr>
+      </table>
+    </mat-expansion-panel>
+
+    <mat-expansion-panel>
+      <mat-expansion-panel-header>
+        <mat-panel-title class="lato">
+          <strong>Grand Rapids Branch</strong>
+        </mat-panel-title>
+        <mat-panel-description class="lato">
+          425 36th Street SW - Wyoming, MI 49548
+        </mat-panel-description>
+      </mat-expansion-panel-header>
+
+      <table>
+        <tr>
+          <td style="padding-right:20px">
+            <strong>Phone:</strong> (616) 261-0773</td>
+          <td>
+            <strong>Fax:</strong> (616) 261-1890</td>
+        </tr>
+      </table>
+      <br>
+      <table>
+        <tr>
+          <th colspan="2">Opening Times</th>
+        </tr>
+        <tr>
+          <td style="padding-right:5px">Monday</td>
+          <td>7:00am - 5:00pm</td>
+        </tr>
+        <tr>
+          <td>Tuesday</td>
+          <td>7:00am - 5:00pm</td>
+        </tr>
+        <tr>
+          <td style="padding-right:50px">Wednesday</td>
+          <td>7:00am - 5:00pm</td>
+        </tr>
+        <tr>
+          <td>Thursday</td>
+          <td>7:00am - 5:00pm</td>
+        </tr>
+        <tr>
+          <td>Friday</td>
+          <td>7:00am - 5:00pm</td>
+        </tr>
+        <tr>
+          <td>Saturday</td>
+          <td>CLOSED</td>
+        </tr>
+        <tr>
+          <td>Sunday</td>
+          <td>CLOSED</td>
+        </tr>
+      </table>
+    </mat-expansion-panel>
+
+    <mat-expansion-panel>
+      <mat-expansion-panel-header>
+        <mat-panel-title class="lato">
+          <strong>Holland Branch</strong>
+        </mat-panel-title>
+        <mat-panel-description class="lato">
+          507 Chicago Drive - Holland, MI 49423
+        </mat-panel-description>
+      </mat-expansion-panel-header>
+
+      <table>
+        <tr>
+          <td style="padding-right:20px">
+            <strong>Phone:</strong> (616) 392-7135</td>
+          <td>
+            <strong>Fax:</strong> (616) 392-9887</td>
+        </tr>
+      </table>
+      <br>
+      <table>
+        <tr>
+          <th colspan="2">Opening Times</th>
+        </tr>
+        <tr>
+          <td style="padding-right:5px">Monday</td>
+          <td>7:00am - 5:00pm</td>
+        </tr>
+        <tr>
+          <td>Tuesday</td>
+          <td>7:00am - 5:00pm</td>
+        </tr>
+        <tr>
+          <td style="padding-right:50px">Wednesday</td>
+          <td>7:00am - 5:00pm</td>
+        </tr>
+        <tr>
+          <td>Thursday</td>
+          <td>7:00am - 5:00pm</td>
+        </tr>
+        <tr>
+          <td>Friday</td>
+          <td>7:00am - 5:00pm</td>
+        </tr>
+        <tr>
+          <td>Saturday</td>
+          <td>CLOSED</td>
+        </tr>
+        <tr>
+          <td>Sunday</td>
+          <td>CLOSED</td>
+        </tr>
+      </table>
+    </mat-expansion-panel>
+
+    <mat-expansion-panel>
+      <mat-expansion-panel-header>
+        <mat-panel-title class="lato">
+          <strong>Kalamazoo Branch</strong>
+        </mat-panel-title>
+        <mat-panel-description class="lato">
+          5385 Wynn Road – Kalamazoo, MI 49048
+        </mat-panel-description>
+      </mat-expansion-panel-header>
+
+      <table>
+        <tr>
+          <td style="padding-right:20px">
+            <strong>Phone:</strong> (269) 385-3949</td>
+          <td>
+            <strong>Fax:</strong> (269) 385-4860</td>
+        </tr>
+      </table>
+      <br>
+      <table>
+        <tr>
+          <th colspan="2">Opening Times</th>
+        </tr>
+        <tr>
+          <td style="padding-right:5px">Monday</td>
+          <td>7:00am - 5:00pm</td>
+        </tr>
+        <tr>
+          <td>Tuesday</td>
+          <td>7:00am - 5:00pm</td>
+        </tr>
+        <tr>
+          <td style="padding-right:50px">Wednesday</td>
+          <td>7:00am - 5:00pm</td>
+        </tr>
+        <tr>
+          <td>Thursday</td>
+          <td>7:00am - 5:00pm</td>
+        </tr>
+        <tr>
+          <td>Friday</td>
+          <td>7:00am - 5:00pm</td>
+        </tr>
+        <tr>
+          <td>Saturday</td>
+          <td>CLOSED</td>
+        </tr>
+        <tr>
+          <td>Sunday</td>
+          <td>CLOSED</td>
+        </tr>
+      </table>
+    </mat-expansion-panel>
+
+    <mat-expansion-panel>
+      <mat-expansion-panel-header>
+        <mat-panel-title class="lato">
+          <strong>Mount Pleasant Branch</strong>
+        </mat-panel-title>
+        <mat-panel-description class="lato">
+          5899 Venture Way – Mount Pleasant, MI 48858
+        </mat-panel-description>
+      </mat-expansion-panel-header>
+
+      <table>
+        <tr>
+          <td style="padding-right:20px">
+            <strong>Phone:</strong> (989) 775-3808</td>
+          <td>
+            <strong>Fax:</strong> (989) 775-0346</td>
+        </tr>
+      </table>
+      <br>
+      <table>
+        <tr>
+          <th colspan="2">Opening Times</th>
+        </tr>
+        <tr>
+          <td style="padding-right:5px">Monday</td>
+          <td>7:30am - 5:00pm</td>
+        </tr>
+        <tr>
+          <td>Tuesday</td>
+          <td>7:30am - 5:00pm</td>
+        </tr>
+        <tr>
+          <td style="padding-right:50px">Wednesday</td>
+          <td>7:30am - 5:00pm</td>
+        </tr>
+        <tr>
+          <td>Thursday</td>
+          <td>7:30am - 5:00pm</td>
+        </tr>
+        <tr>
+          <td>Friday</td>
+          <td>7:30am - 5:00pm</td>
+        </tr>
+        <tr>
+          <td>Saturday</td>
+          <td>CLOSED</td>
+        </tr>
+        <tr>
+          <td>Sunday</td>
+          <td>CLOSED</td>
+        </tr>
+      </table>
+    </mat-expansion-panel>
+
+    <mat-expansion-panel>
+      <mat-expansion-panel-header>
+        <mat-panel-title class="lato">
+          <strong>South Bend Branch</strong>
+        </mat-panel-title>
+        <mat-panel-description class="lato">
+          3400 Nimtz Parkway – South Bend, IN 46628
+        </mat-panel-description>
+      </mat-expansion-panel-header>
+
+      <table>
+        <tr>
+          <td style="padding-right:20px">
+            <strong>Phone:</strong> (574) 288-4661</td>
+          <td>
+            <strong>Fax:</strong> (574) 288-4664</td>
+        </tr>
+      </table>
+      <br>
+      <table>
+        <tr>
+          <th colspan="2">Opening Times</th>
+        </tr>
+        <tr>
+          <td style="padding-right:5px">Monday</td>
+          <td>7:00am - 5:00pm</td>
+        </tr>
+        <tr>
+          <td>Tuesday</td>
+          <td>7:00am - 5:00pm</td>
+        </tr>
+        <tr>
+          <td style="padding-right:50px">Wednesday</td>
+          <td>7:00am - 5:00pm</td>
+        </tr>
+        <tr>
+          <td>Thursday</td>
+          <td>7:00am - 5:00pm</td>
+        </tr>
+        <tr>
+          <td>Friday</td>
+          <td>7:00am - 5:00pm</td>
+        </tr>
+        <tr>
+          <td>Saturday</td>
+          <td>CLOSED</td>
+        </tr>
+        <tr>
+          <td>Sunday</td>
+          <td>CLOSED</td>
+        </tr>
+      </table>
+    </mat-expansion-panel>
+
+    <mat-expansion-panel>
+      <mat-expansion-panel-header>
+        <mat-panel-title class="lato">
+          <strong>Stevensville Branch</strong>
+        </mat-panel-title>
+        <mat-panel-description class="lato">
+          2355 Glenlord – Stevensville, MI 49127
+        </mat-panel-description>
+      </mat-expansion-panel-header>
+
+      <table>
+        <tr>
+          <td style="padding-right:20px">
+            <strong>Phone:</strong> (269) 428-5274</td>
+          <td>
+            <strong>Fax:</strong> (269) 428-4984</td>
+        </tr>
+      </table>
+      <br>
+      <table>
+        <tr>
+          <th colspan="2">Opening Times</th>
+        </tr>
+        <tr>
+          <td style="padding-right:5px">Monday</td>
+          <td>7:30am - 5:00pm</td>
+        </tr>
+        <tr>
+          <td>Tuesday</td>
+          <td>7:30am - 5:00pm</td>
+        </tr>
+        <tr>
+          <td style="padding-right:50px">Wednesday</td>
+          <td>7:30am - 5:00pm</td>
+        </tr>
+        <tr>
+          <td>Thursday</td>
+          <td>7:30am - 5:00pm</td>
+        </tr>
+        <tr>
+          <td>Friday</td>
+          <td>7:30am - 5:00pm</td>
+        </tr>
+        <tr>
+          <td>Saturday</td>
+          <td>CLOSED</td>
+        </tr>
+        <tr>
+          <td>Sunday</td>
+          <td>CLOSED</td>
+        </tr>
+      </table>
+    </mat-expansion-panel>
+
+  </div>
+</div>
+<div class="main-content">
+  <h1>Affiliates</h1>
+  <br>
+  <div class="affiliatelogos">
+    <a href="http://hardinet.org/" target="_blank">
+      <img src="assets/images/hardi.png" style="height:100px">
+    </a>
+    <a href="http://www.acca.org/home" target="_blank">
+      <img src="assets/images/acaa.png" style="height:100px">
+    </a>
+    <a href="http://www.bluehawk.coop/" target="_blank">
+      <img src="assets/images/bluehawk.png" style="height:100px">
+    </a>
+  </div>
+  <br>
+</div>

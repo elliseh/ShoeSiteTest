@@ -1,0 +1,90 @@
+h1, h2, h3 {
+    font-family: Lato;
+}
+p {
+    font-family: Lato;
+    width: 700px;
+}
+a {
+    text-decoration: none;
+}
+.form {
+ 
+    display: flex;
+    flex-direction: column;
+}
+.form > * {
+    width: 100%;
+    min-width: 150px;
+    max-width: 500px;
+}
+  
+//   .example-full-width {
+//     width: 100%;
+//   }
+table {
+    font-family: Lato;
+}
+.lato {
+    font-family: Lato;
+}
+.affiliatelogos {
+    display: flex;
+    justify-content: space-around;
+    flex-flow: row wrap;
+}
+.offercontact {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+}
+.offertext {
+    padding-right: 150px;
+    word-wrap: break-word;
+    max-width: 100%;
+}
+.white {
+    color: white;
+}
+.demo-tab-group {
+    border: 1px solid #cccccc;
+    font-family: Lato;
+  }
+  
+  .demo-tab-content {
+    padding: 16px;
+    font-family: Lato;
+  }
+.container {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: center;
+}  
+.circlebuttons {
+    border: 3px solid #2a60b6;
+    background-color: #2a60b6; 
+    color: white;
+    font-size: 50px;
+    border-radius: 100%; /*keeps buttons a circle*/
+    height: 250px;
+    width: 250px;
+    font-family: Lato;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+}
+.icon {
+    font-size: 50px;
+}
+.padding {
+    padding-left: 75px;
+    padding-right: 75px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.circlebuttons:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
